@@ -1,6 +1,19 @@
-# Pyber Analysis
-## Overview of Analysis
-### Pyber, a ridesharing company, has called on for a project to analyze their data to figure out the metric regarding total weekly fares, using city type (urban, rural, suburban). The datasets analyzed for this project gave insight on total fares, drivers, and rides, which led to the calculation of the averages of those metrics and their city types. 
+# PyBer_Ride_Sharing_Analysis
 
-### The dataset was also utilized to create a brand new data frame for average fare per week from a specified point of time, which for the purpose of this analysis was January 1st, 2019 to April 28th, 2019 for each type of city. After the development of the dataframe, a multi-line graph was crated to show total weekly fare by each city type. With this output, the information was provided to Pyber's chief executive officer to address issues in the output by type of city. 
+## Overview of Analysis: 
+A summary DataFrame was completed with the ride-sharing data gathered from PyBer by city type. Using Pandas and Matplotlib, multiple-line graphs that show the total weekly fares for each city type were created. Will discuss how the data differs by city type and how those differences can be used by decision-makers at PyBer.
 
+## Results:
+![Pyber_fare_summary](/analysis/Pyber_fare_summary.png)
+![ride_sharing_data](/analysis/ride_sharing_data.png)
+
+By reviewing the summary we can see that there are several key findings including:
+
+* Urban cities 30 times as many drives as rural cities, but only 13 times more rides.
+* The average fare per driver is 3 and 1/3 times more than urban driver.
+* Suburban cities have more than 6 times as many drivers than rural, with almost 4.5 times the revenue.
+* Rural cities have the highest average fare per ride and driver.
+* The summary data shows more drivers leads to more rides.
+
+## Summary:
+Based on this summary review of the PyBer DataFrame, I have several business recommendations.  The urban area appears to be overstaurated with drivers and fares only needing to go short distances. I would recommend increasing fare prices in the urban area to increase profits and cutting at least 25% of the drivers due to over saturation.  For the rural area, I would recommend increasing drivers, allowing my fares the opportunity to use the service. For the suburabn area, I would recommend a slight increase in fare price and keep the number of drivers stable for now.
